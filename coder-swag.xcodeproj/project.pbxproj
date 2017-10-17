@@ -13,6 +13,8 @@
 		E8764C1B1F95580B00C5C046 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8764C1A1F95580B00C5C046 /* Assets.xcassets */; };
 		E8764C1E1F95580B00C5C046 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8764C1C1F95580B00C5C046 /* LaunchScreen.storyboard */; };
 		E8D58D7A1F955D3A0065A676 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D58D791F955D3A0065A676 /* CategoryCell.swift */; };
+		E8D58D7C1F955FB50065A676 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D58D7B1F955FB50065A676 /* Category.swift */; };
+		E8D58D7F1F9573940065A676 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D58D7E1F9573940065A676 /* DataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		E8764C1D1F95580B00C5C046 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E8764C1F1F95580B00C5C046 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E8D58D791F955D3A0065A676 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		E8D58D7B1F955FB50065A676 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		E8D58D7E1F9573940065A676 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		E8764C121F95580B00C5C046 /* coder-swag */ = {
 			isa = PBXGroup;
 			children = (
+				E8D58D7D1F9573830065A676 /* Services */,
 				E8D58D781F955CCC0065A676 /* Views */,
 				E8D58D771F955CC50065A676 /* Model */,
 				E8D58D751F955CB10065A676 /* Controller */,
@@ -79,6 +84,7 @@
 		E8D58D771F955CC50065A676 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				E8D58D7B1F955FB50065A676 /* Category.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -89,6 +95,14 @@
 				E8D58D791F955D3A0065A676 /* CategoryCell.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		E8D58D7D1F9573830065A676 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E8D58D7E1F9573940065A676 /* DataService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,6 +180,8 @@
 				E8764C161F95580B00C5C046 /* CategoriesVC.swift in Sources */,
 				E8764C141F95580B00C5C046 /* AppDelegate.swift in Sources */,
 				E8D58D7A1F955D3A0065A676 /* CategoryCell.swift in Sources */,
+				E8D58D7C1F955FB50065A676 /* Category.swift in Sources */,
+				E8D58D7F1F9573940065A676 /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
